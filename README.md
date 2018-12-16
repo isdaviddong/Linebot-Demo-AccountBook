@@ -16,7 +16,7 @@ bot就會將此筆消費紀錄儲存起來 <br>
 ===
  ![](https://i.imgur.com/JG97Yml.png)
 
-測試
+測試 - 想要試玩看看?
 ===
 您可以用LINE 搜尋 @lep6424e 將其加入好友即可測試 <br>
 或掃描QR Code <br>
