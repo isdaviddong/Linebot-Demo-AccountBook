@@ -12,10 +12,16 @@ Linebot-Demo-AccountBook
 bot就會將此筆消費紀錄儲存起來 <br>
 用戶也可以說 『/month』 或 『/today』 取得本月或今天的消費金額小記 <br>
 
-畫面
+使用畫面
 ===
  ![](https://i.imgur.com/JG97Yml.png)
 
+測試
+===
+您可以用LINE 搜尋 @lep6424e 將其加入好友即可測試 <br>
+或掃描QR Code <br>
+  ![](http://qr-official.line.me/L/Y96v008FCv.png)
+  
 如何佈署專案
 ===
 * 請 clone 之後，修改 web.config 中的 ChannelAccessToken

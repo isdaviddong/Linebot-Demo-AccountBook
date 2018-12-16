@@ -52,7 +52,7 @@ namespace AccountBookMain
         {
             var db = new Models.MainDBDataContext();
             var ret = from c in db.AccountBooks
-                      where c.SpendDT.StartsWith(DateTime.Now.ToString("yyyy/MM/dd"))
+                      where c.SpendDT.StartsWith(DateTime.Now.ToString("yyyy/MM/dd")) && c.UserId== UserId
                       select c.Amount;
             if (ret.Count() <= 0) return 0;
             var amount = ret.Sum();
@@ -63,7 +63,7 @@ namespace AccountBookMain
         {
             var db = new Models.MainDBDataContext();
             var ret = from c in db.AccountBooks
-                      where c.SpendDT.StartsWith(DateTime.Now.ToString("yyyy/MM"))
+                      where c.SpendDT.StartsWith(DateTime.Now.ToString("yyyy/MM")) && c.UserId == UserId
                       select c.Amount;
             if (ret.Count() <= 0) return 0;
             var amount = ret.Sum();
