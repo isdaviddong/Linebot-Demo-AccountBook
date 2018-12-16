@@ -12,7 +12,11 @@ Linebot-Demo-AccountBook
 bot就會將此筆消費紀錄儲存起來 <br>
 用戶也可以說 『/month』 或 『/today』 取得本月或今天的消費金額小記 <br>
 
-如何使用
+畫面
+===
+ ![](https://i.imgur.com/JG97Yml.png)
+
+如何佈署專案
 ===
 * 請 clone 之後，修改 web.config 中的 ChannelAccessToken
 ```xml
@@ -41,10 +45,6 @@ bot就會將此筆消費紀錄儲存起來 <br>
 * 如果你的Visual Studio沒有安裝LinqToSQL，可以參考底下的畫面進行調整:
  ![](https://i.imgur.com/ew6acqd.png)
  
-
-畫面
-===
-![](http://arock.blob.core.windows.net/blogdata201812/16-195926-f1b25648-c055-42ed-b493-00af07ed61ed.png)
 
 線上課程
 ===
