@@ -20,8 +20,8 @@ bot就會將此筆消費紀錄儲存起來 <br>
 ===
 您可以用LINE 搜尋 @lep6424e 將其加入好友即可測試 <br>
 或掃描QR Code <br>
-  ![](http://qr-official.line.me/L/Y96v008FCv.png)
-  
+![](https://i.imgur.com/sEMbP4J.png)
+
 如何佈署專案
 ===
 * 請 clone 之後，修改 web.config 中的 ChannelAccessToken
