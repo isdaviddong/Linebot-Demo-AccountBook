@@ -33,8 +33,8 @@ namespace AccountBookMain.Controllers
                 }
                 else if (LineEvent.type.ToLower() == "postback")
                     responseMsg = ProcessPostback(LineEvent);
-                else
-                    responseMsg = $"收到 event : {LineEvent.type}";
+                else if (LineEvent.type.ToLower() == "follow")
+                    responseMsg = $"";
 
                 //回覆訊息
                 if (!string.IsNullOrEmpty(responseMsg))
