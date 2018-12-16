@@ -84,7 +84,7 @@ namespace AccountBookMain.Controllers
          }
         private string ProcessText(isRock.LineBot.Event e)
         {
-            const  string HelpMsg = "很抱歉，如果希望我記帳，你必須先輸入一個數字唷...\n\n例如:\n 180 \n 或\n 180 麥當勞"; 
+            const  string HelpMsg = "嗨，您好。\n如果希望我幫您記帳，你可以直接輸入金額唷...\n\n例如:\n 180 \n 或\n 180 麥當勞\n然後再選取或輸入分類即可。"; 
 
             //取得User Id
             var UserId = e.source.userId;
