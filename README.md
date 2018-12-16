@@ -1,14 +1,16 @@
 Linebot-Demo-AccountBook
 ===
 
-此Line bot範例為使用 LineBotSDK 建立 <br>
+此Line bot範例為使用 LineBotSDK 建立的 <br>
 電子記帳本 <br>
 用戶可以跟 bot 說 <br>
+-------------------- <br>
 87 </B><br>
 或 <br>
 87 麥當勞 <br>
+-------------------- <br>
 bot就會將此筆消費紀錄儲存起來 <br>
-用戶可以說 /month 或 /today 取得 消費本月或今天的金額小記 <br>
+用戶也可以說 『/month』 或 『/today』 取得本月或今天的消費金額小記 <br>
 
 如何使用
 ===
@@ -18,7 +20,7 @@ bot就會將此筆消費紀錄儲存起來 <br>
     <add key="ChannelAccessToken" value="請改成你自己的channel access token"/>
   </appSettings>
 ```
-* 為了便於除錯，請修改 CopyCatController.cs 中的 Admin User Id
+* 為了便於除錯，請修改 LineAccountBookController.cs 中的 Admin User Id
 ```csharp
    catch (Exception ex)
             {
@@ -42,7 +44,7 @@ bot就會將此筆消費紀錄儲存起來 <br>
 
 畫面
 ===
-![](https://i.imgur.com/DKvVs4A.png)
+![](http://arock.blob.core.windows.net/blogdata201812/16-195926-f1b25648-c055-42ed-b493-00af07ed61ed.png)
 
 線上課程
 ===
