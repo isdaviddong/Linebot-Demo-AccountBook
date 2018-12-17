@@ -51,6 +51,10 @@ bot就會將此筆消費紀錄儲存起來 <br>
 * 如果你的Visual Studio沒有安裝LinqToSQL，可以參考底下的畫面進行調整:
  ![](https://i.imgur.com/ew6acqd.png)
  
+注意事項
+===
+由於這只是一個範例，我們盡可能用最簡單的方式來開發。
+範例中記錄狀態的方式採用了Application[]變數，但實務上建議您調整成資料庫或其他storage。
 
 線上課程
 ===
