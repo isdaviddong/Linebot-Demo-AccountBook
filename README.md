@@ -53,10 +53,14 @@ bot就會將此筆消費紀錄儲存起來 <br>
  
 注意事項
 ===
-由於這只是一個範例，我們盡可能用最簡單的方式來開發。
+由於這只是一個範例，我們盡可能用最簡單的方式來開發。 <br/>
 範例中記錄狀態的方式採用了Application[]變數，但實務上建議您調整成資料庫或其他storage。
 
-線上課程
+線上課程 與 電子書
 ===
 LineBotSDK線上教學課程: <br/>
 https://www.udemy.com/line-bot <br/>
+ <br/>
+電子書購買位置: <br/>
+https://www.pubu.com.tw/ebook/103305 <br/>
+
